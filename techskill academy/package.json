@@ -1,0 +1,19 @@
+{
+  "name": "techskill-academy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TechSkill Academy — ICT training website with student, facilitator and admin portals. Netlify-ready (static frontend + Netlify Functions API + Netlify Blobs storage).",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod",
+    "test": "node scripts/smoke-test.mjs http://localhost:3000"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
